@@ -1,0 +1,373 @@
+.active{
+    border-bottom: 2px solid #fcfcfc !important;
+    
+}
+ 
+
+.navbar-nav .nav-link{
+margin: 0 20px !important;
+}
+.backgruond{
+    background-color: rgba(0,0,0, 0.5) !important;
+    
+    
+}
+#navbar1{
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.3 ease;
+  z-index: 10;
+}
+#navbar1.sticky{
+  position: fixed;
+  top: 0;
+  background-color: #000;
+}
+#typewriter {
+    font-size: 70px;
+    
+    border-right: 2px solid rgb(241, 240, 240);
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  .iam{
+    font-size: 70px;
+    padding-right: 20px;
+    font-weight: 100;
+  }
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  .pading{
+    padding-top: 100px;
+  } 
+  .hallo{
+    font-size: 54px;
+    font-weight: 800;
+  }
+  .header{
+    background-image: url(../imgs/bg.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: antiquewhite !important;
+    position: relative;
+   
+  }
+  .header .overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5) !important;
+    z-index: 1;
+  }
+  .content{
+    z-index: 2;
+    position: relative;
+  }
+  #navbar1 a{
+    color: beige !important;
+    z-index: 2;
+  }
+  .navbar2 a{
+    z-index: 3;
+    position: relative;
+  }
+  .circle-img-btn {
+    z-index: 3;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    opacity: 0.9;
+  }
+  
+  .circle-img-btn img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .circle-img-btn:hover {
+    background-color: #ddd;
+  }
+
+
+
+
+  .about-section {
+    padding: 60px 60px;
+  }
+  .profile-img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .progress {
+    height: 24px;
+  }
+  .progress-bar {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+  }
+  .btn-custom {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+
+
+
+  .service-box {
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+  }
+/* أضف هذا داخل <style> */
+.icon-img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    
+  }
+  
+  .service-box:hover .service-icon {
+    background: #000;
+    color: #fff;
+
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+
+
+  
+  
+   
+ 
+
+  h1 {
+    font-weight: bold;
+  }
+
+  /* إزالة التسطير من جميع الروابط */
+  .filter-nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .filter-nav a:hover,
+  .filter-nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* تنسيق الصور */
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    display: block;
+  }
+
+  /* طبقة overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: 0.4s ease;
+  }
+
+  .portfolio-item:hover .overlay {
+    opacity: 1;
+  }
+
+  /* الدائرتان */
+  .icon-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0 3px white, 0 0 0 6px black; /* ثورتين */
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+
+  .icon-circle:hover {
+    transform: scale(1.1);
+  }
+
+  .icon-img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+
+
+
+
+ 
+  
+  .testimonial-section {
+    text-align: center;
+    padding: 60px 20px;
+    height: 100vh;
+  }
+  .testimonial-section h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .testimonial-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #607d8b;
+  }
+  .testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #607d8b;
+     margin-top: 60px !important;
+  }
+  .testimonial-img {
+    margin-top: 40px;  
+  }
+  .ll {
+    padding-top: 100px !important; /* زوّد الرقم حسب ما تحب */
+  }
+
+
+  .stats-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  .stat-box i {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  .stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .stat-label {
+    color: #607d8b;
+  }
+ 
+
+  .team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+
+  .team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+
+  .team-member:hover .overlay {
+    opacity: 1;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    transition: 0.2s;
+  }
+
+  .social-icons a:hover {
+    color: #007bff;
+  }
+
+  .member-info {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .member-info h5 {
+    margin-bottom: 5px;
+  }
+
+  .member-info p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .icon-hover {
+    transition: color 0.3s;
+    font-size: 30px;
+  }
+  .icon-hover:hover {
+    color: black;
+  }
